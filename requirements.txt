@@ -50,10 +50,11 @@ streamlit
 
 tqdm
 requests
-
+langchain-experimental
 langchain
 langchain-community
 langchain-huggingface
+langchain-text-splitters
 huggingface-hub
 python-dotenv
 sentence-transformers

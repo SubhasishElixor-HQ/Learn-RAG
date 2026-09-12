@@ -60,3 +60,4 @@ python-dotenv
 sentence-transformers
 faiss-cpu
 pypdf
+arxiv

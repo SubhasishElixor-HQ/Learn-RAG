@@ -11,8 +11,7 @@ prompt = ChatPromptTemplate.from_template(
     "Explain {topic} in simple words"
 )
 
-# 2. Model
-# 2. Create Hugging Face LLM
+# 2. Create Hugging Face LLM Model
 llm = HuggingFaceEndpoint(
     repo_id="deepseek-ai/DeepSeek-R1-0528",
     task="text-generation"

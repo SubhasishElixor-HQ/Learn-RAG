@@ -14,7 +14,136 @@
 </p>
 
 ---
+# 🧠 RAG Learning
 
+### Retrieval-Augmented Generation
+
+Documents → Knowledge → Retrieval → Context → Generation
+
+---
+
+## 📦 Installation
+
+Follow the steps below to set up the project locally.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+cd YOUR_REPOSITORY
+```
+
+### 2. Create a Virtual Environment
+
+#### Using Python
+
+```bash
+python -m venv .venv
+```
+
+#### Activate on Windows PowerShell
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+#### Activate on Windows CMD
+
+```cmd
+.venv\Scripts\activate
+```
+
+#### Activate on macOS / Linux
+
+```bash
+source .venv/bin/activate
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### ⚡ Using `uv`
+
+If you use [`uv`](https://docs.astral.sh/uv/), you can create the environment and install dependencies faster:
+
+```bash
+uv venv
+uv pip install -r requirements.txt
+```
+
+### 4. Verify Installation
+
+Check that Python is available:
+
+```bash
+python --version
+```
+
+Check installed packages:
+
+```bash
+pip list
+```
+
+Or with `uv`:
+
+```bash
+uv pip list
+```
+
+### 5. Environment Variables
+
+If your RAG application requires API keys, create a `.env` file in the project root:
+
+```env
+MODEL_API_KEY=your_api_key_here
+```
+
+**Never commit API keys to GitHub.**
+
+Add the following to `.gitignore`:
+
+```gitignore
+.env
+.venv/
+__pycache__/
+*.pyc
+```
+
+### 6. Run the Project
+
+Run the main application:
+
+```bash
+python main.py
+```
+
+For individual learning modules:
+
+```bash
+python <filename>.py
+```
+
+---
+
+## 🚀 Quick Setup
+
+For a quick setup using `uv`:
+
+```bash
+git clone https://github.com/SubhasishElixor-HQ/Learn-RAG.git
+cd Learn-RAG
+
+uv venv
+uv pip install -r requirements.txt
+
+python Filename.py
+```
+
+---
 # 📚 What is RAG?
 
 **RAG (Retrieval-Augmented Generation)** is an architecture that allows an LLM to retrieve relevant information from an external knowledge source and use that information as context when generating an answer.

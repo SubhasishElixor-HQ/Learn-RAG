@@ -29,8 +29,8 @@ Follow the steps below to set up the project locally.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-cd YOUR_REPOSITORY
+git clone https://github.com/SubhasishElixor-HQ/Learn-RAG.git
+cd Learn-RAG
 ```
 
 ### 2. Create a Virtual Environment

@@ -61,3 +61,5 @@ sentence-transformers
 faiss-cpu
 pypdf
 arxiv
+langchain-tavily
+tavily-python
